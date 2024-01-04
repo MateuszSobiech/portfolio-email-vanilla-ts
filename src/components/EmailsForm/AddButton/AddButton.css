@@ -1,0 +1,9 @@
+.add-button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  color: #8f8f8f;
+  background-color: white;
+}

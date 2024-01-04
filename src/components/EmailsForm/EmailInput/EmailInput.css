@@ -1,0 +1,40 @@
+.email-input-container {
+  width: 260px;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.email-input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px 0 16px;
+  font-size: 14px;
+}
+
+.email-input:focus-within ~ .email-input-label {
+  top: 0;
+}
+
+.email-input[value]:not([value=""]) ~ .email-input-label {
+  top: 0;
+}
+
+.email-input-label {
+  color: #656565;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  background-color: white;
+  padding: 0 4px;
+  transition: top .1s linear;
+}
+
+.email-input-button {
+  position: absolute;
+  border: none;
+  background: none;
+  font-size: 12px;
+  padding: 0 6px;
+  cursor: pointer;
+}

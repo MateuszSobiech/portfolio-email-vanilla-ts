@@ -1,0 +1,15 @@
+.emails-form {
+  width: 40%;
+  box-shadow: 0px 0px 3px 0px darkgrey;
+  padding: 48px;
+}
+
+.emails-form #add-button {
+  margin: 16px 0;
+}
+
+.emails-form-sub-header {
+  color: #8f8f8f;
+  margin: 0;
+  margin-bottom: 12px;
+}
